@@ -60,6 +60,8 @@ This segment is used as the target for the generated marketing recommendations.
 
 A Streamlit dashboard was created to display the customer segments, cluster statistics, visualisation and targeted marketing recommendations.
 
+Live demo: https://aiml3customersegmentationbyte-nezca5jbnsokundvhnrruf.streamlit.app/
+
 ## Technologies
 
 - Python
@@ -76,6 +78,20 @@ A Streamlit dashboard was created to display the customer segments, cluster stat
 - `data/` - customer dataset
 - `images/` - clustering and evaluation visualisations
 - `examples/` - dataset sample, centroids, cluster profiles and marketing brief
+
+## Customer Segment Profiles
+
+- **Cluster 0 – Older, Mid-Income, Moderate-Spending:** 45 customers with an average age of 56.33, average income of $54.27k and average Spending Score of 49.07.
+
+- **Cluster 1 – Younger, Mid-Income, Moderate-Spending:** 39 customers with an average age of 26.79, average income of $57.10k and average Spending Score of 48.13.
+
+- **Cluster 2 – High-Income, Low-Spending:** 33 customers with an average age of 41.94, average income of $88.94k and average Spending Score of 16.97.
+
+- **Cluster 3 – High-Income, High-Spending:** 39 customers with an average age of 32.69, average income of $86.54k and average Spending Score of 82.13. This is the main target segment for premium upselling.
+
+- **Cluster 4 – Young, Lower-Income, High-Spending:** 23 customers with an average age of 25.00, average income of $25.26k and average Spending Score of 77.61.
+
+- **Cluster 5 – Older, Lower-Income, Low-Spending:** 21 customers with an average age of 45.52, average income of $26.29k and average Spending Score of 19.38.
 
 ## Run the Project
 
